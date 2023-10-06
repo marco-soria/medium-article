@@ -1,0 +1,92 @@
+body {
+  display: block;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+.banner {
+  background-image: url(https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+/* Media queries */
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+/* Media queries */
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
